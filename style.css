@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@800&family=Fraunces:wght@700;900&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+}
+
+.main #header {
+    width: 100vw;
+    height: 100vh;
+}
+
+.main .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    top: 3vh;
+    width: 95vw;
+    position: absolute;
+    left: 3vw;
+    text-align: center;
+}
+
+.main .header h1 {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.main nav {
+    padding-top: 0.5vh;
+    height: 10vh;
+}
+
+.main nav a {
+    color: white;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    font-family: 'Barlow', sans-serif;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.main nav a:active {
+    height: 100%;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-family: 'Fraunces', sans-serif;
+    background-color: white;
+    color: grey;
+    border-radius: 30px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
